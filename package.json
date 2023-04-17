@@ -29,6 +29,6 @@
     "tsc-watch": "^6.0.0"
   },
   "scripts": {
-    "start": "./dist/app.js"
+    "start": "node app.js"
   }
 }
