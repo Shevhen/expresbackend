@@ -1,9 +1,9 @@
 const express = require("express")
 const app = express();
 
-const fs = require("fs")
-const path = require("path")
-const {json} = require("express");
+// const fs = require("fs")
+// const path = require("path")
+// const {json} = require("express");
 const {users} = require("./users");
 
 app.use(express.json());
