@@ -209,7 +209,6 @@
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
     "npm-run-path": "^2.0.2",
-
     "npmlog": "^5.0.1",
     "nth-check": "^2.1.1",
     "object-assign": "^4.1.1",
