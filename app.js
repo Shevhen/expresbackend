@@ -2,9 +2,7 @@ const express = require("express")
 const app = express();
 
 const fs = require("fs")
-// const path = require("path")
 const {json} = require("express");
-const {users} = require("./users.json");
 
 
 const cors = require("cors")
@@ -23,7 +21,6 @@ app.use(express.urlencoded({ extended: true }));
                 res.json("["+data+"]")
             }
         })
-        // res.json(users)
     })
 
 
@@ -37,7 +34,5 @@ app.use(express.urlencoded({ extended: true }));
     })
 })
 app.listen(5100, () => {
-    // mongoose.connect("mongodb+srv://Yevhen:Yevhen@cluster0.ct2xzoh.mongodb.net/?retryWrites=true&w=majority");
-    // cronRunner()
     console.log("Server!");
 });
